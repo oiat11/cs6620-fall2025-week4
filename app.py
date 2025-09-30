@@ -39,7 +39,7 @@ def calculate(operation, num1, num2):
 if __name__ == "__main__":
     print("Simple Calculator")
     print("-" * 20)
-    
+
     result1 = calculate('add', 10, 5)
     print(f"10 + 5 = {result1}")
 
@@ -48,5 +48,5 @@ if __name__ == "__main__":
 
     unused_variable = "This variable is never used"
 
-    print("Calculator completed successfully!")
+    print("Calculator completed successfully!“)
 
