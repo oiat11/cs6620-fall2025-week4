@@ -1,5 +1,6 @@
 """Simple CLI calculator with basic operations and a dispatcher."""
 
+
 def add(a, b):
     """Add two numbers."""
     return a + b
