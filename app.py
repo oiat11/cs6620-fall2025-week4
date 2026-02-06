@@ -1,7 +1,3 @@
-import os
-import sys
-
-
 def add(a, b):
     """Add two numbers"""
     return a+b
@@ -31,7 +27,7 @@ def calculate(operation, num1, num2):
     elif operation == 'subtract':
         result = subtract(num1, num2)
     elif operation == 'multiply':
-        result = multiply(num1,num2)
+        result = multiply(num1, num2)
     elif operation == 'divide':
         result = divide(num1, num2)
     else:
@@ -43,7 +39,7 @@ def calculate(operation, num1, num2):
 if __name__ == "__main__":
     print("Simple Calculator")
     print("-" * 20)
- 
+
     result1 = calculate('add', 10, 5)
     print(f"10 + 5 = {result1}")
 
