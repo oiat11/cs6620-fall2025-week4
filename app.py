@@ -1,22 +1,27 @@
 """Simple calculator module with basic arithmetic operations."""
 
+
 def add(a, b):
     """Add two numbers and return the sum."""
     return a + b
+
 
 def subtract(a, b):
     """Subtract the second number from the first and return the difference."""
     return a - b
 
+
 def multiply(a, b):
     """Multiply two numbers and return the product."""
     return a * b
+
 
 def divide(a, b):
     """Divide the first number by the second and return the quotient."""
     if b == 0:
         raise ValueError("Cannot divide by zero")
     return a / b
+
 
 def calculate(operation, num1, num2):
     """Perform a calculation based on the given operation."""
@@ -32,6 +37,7 @@ def calculate(operation, num1, num2):
         raise ValueError(f"Unknown operation: {operation}")
 
     return result
+
 
 if __name__ == "__main__":
     print("Simple Calculator")
