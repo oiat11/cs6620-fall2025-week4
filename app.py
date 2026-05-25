@@ -49,4 +49,3 @@ if __name__ == "__main__":
     unused_variable = "This variable is never used"
 
     print("Calculator completed successfully!")
-
