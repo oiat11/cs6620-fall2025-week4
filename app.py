@@ -3,8 +3,9 @@ import sys
 
 def add(a, b):
     """Add two numbers"""
+    
     return a + b
-
+  
 
 def subtract(a, b):
     """Subtract two numbers"""
@@ -14,6 +15,7 @@ def subtract(a, b):
 def multiply(a, b):
     """Multiply two numbers"""
     return a * b
+
 
 
 def divide(a, b):
@@ -48,7 +50,7 @@ if __name__ == "__main__":
 
     result2 = calculate('multiply', 7, 3)
     print(f"7 * 3 = {result2}")
-
+    
     unused_variable = "This variable is never used"
 
     print("Calculator completed successfully!")
